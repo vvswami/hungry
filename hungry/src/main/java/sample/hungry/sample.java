@@ -1,5 +1,6 @@
 package sample.hungry;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -10,7 +11,6 @@ public class sample {
 	@Test
 	public void open()
 	{
-		
 		System.setProperty("webdriver.chrome.driver", "D:\\Testing Software\\Vishnu Sir_Selenium\\chromedriver.exe");
 		 ChromeDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
