@@ -1,6 +1,7 @@
 package sample.hungry;
 
-import org.testng.annotations.Test;
+
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,6 @@ public class sample {
 		 driver.get("https://www.google.com");
 		 System.out.println("URL Launch");
 		 driver.quit();
-		
 		
 	}
 	
