@@ -10,8 +10,14 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Prof_urls {
+	
+	
+	
 
-	public static void main(String[] args) throws InterruptedException {
+	//public static void main(String[] args) throws InterruptedException 
+	
+	public void prof() throws InterruptedException
+	{
 
 		//FirefoxDriver driver = new FirefoxDriver();
 		
